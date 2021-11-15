@@ -8,7 +8,7 @@ module.exports = {
         filename: 'bundle.js',
         path: path.join(__dirname, '../dist/public')
     },
-    mode: 'production',
+    mode: 'development',
     module: {
         rules: [{
             test: /\.css$/i,

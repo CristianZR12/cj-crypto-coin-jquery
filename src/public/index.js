@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/sass/index.scss';
 
 import Navbar from './assets/helpers/navbar';
-import { indexRouter } from './routes/index.rouer';
+import { indexRouter } from './assets/routes/index.rouer';
 
 $(() => {
     Navbar();
@@ -22,5 +22,6 @@ $(() => {
         });
     }
 
-    window.addEventListener('load', init());
+    $(window).on('load', init());
+
 });
